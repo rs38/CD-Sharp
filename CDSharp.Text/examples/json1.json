@@ -1,0 +1,39 @@
+﻿{
+  "lastTrip": {
+    "efficiencyValue": 0.54,
+    "totalDistance": 25,
+    "electricDistance": 4,
+    "avgElectricConsumption": -1,
+    "avgRecuperation": 5,
+    "drivingModeValue": 1.15,
+    "totalConsumptionValue": 0.8,
+    "avgCombinedConsumption": 6.4,
+    "chargingBehaviorValue": 0,
+    "electricDistanceShareValue": 0.2,
+    "electricDistanceRatio": 16,
+    "savedFuel": 2.51,
+    "date": "2017-06-04T19:54:00+0200",
+    "duration": 26
+  },
+
+
+  {
+    "lastTrip": {
+      "efficiencyValue": 0.45,
+      "totalDistance": 4,
+      "electricDistance": 2.8,
+      "avgElectricConsumption": 19,
+      "avgRecuperation": 10,
+      "drivingModeValue": 0.5,
+      "accelerationValue": 0.5,
+      "anticipationValue": 0.43,
+      "totalConsumptionValue": 0.82,
+      "auxiliaryConsumptionValue": 0,
+      "avgCombinedConsumption": 2.5,
+      "electricDistanceRatio": 70,
+      "savedFuel": 0,
+      "date": "2017-06-02T14:10:00+0200",
+      "duration": 9
+    }
+  }
+}

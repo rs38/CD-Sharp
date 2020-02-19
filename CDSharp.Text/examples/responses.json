@@ -1,0 +1,248 @@
+﻿{
+  "vehicleStatus": {
+    "vin": "WBA4",
+    "mileage": 10332,
+    "updateReason": "VEHICLE_SHUTDOWN_SECURED",
+    "updateTime": "2017-06-07T08:32:48+0200",
+    "doorDriverFront": "CLOSED",
+    "doorDriverRear": "CLOSED",
+    "doorPassengerFront": "CLOSED",
+    "doorPassengerRear": "CLOSED",
+    "windowDriverFront": "CLOSED",
+    "windowDriverRear": "CLOSED",
+    "windowPassengerFront": "CLOSED",
+    "windowPassengerRear": "CLOSED",
+    "sunroof": "CLOSED",
+    "trunk": "CLOSED",
+    "rearWindow": "INVALID",
+    "hood": "CLOSED",
+    "doorLockState": "SECURED",
+    "parkingLight": "OFF",
+    "positionLight": "OFF",
+    "remainingFuel": 15,
+    "remainingRangeElectric": 9,
+    "remainingRangeElectricMls": 5,
+    "remainingRangeFuel": 259,
+    "remainingRangeFuelMls": 160,
+    "maxRangeElectric": 38,
+    "maxRangeElectricMls": 23,
+    "connectionStatus": "DISCONNECTED",
+    "chargingStatus": "INVALID",
+    "chargingLevelHv": 32,
+    "lastChargingEndReason": "END_REQUESTED_BY_DRIVER",
+    "lastChargingEndResult": "SUCCESS",
+    "position": {
+      "lat": 51.27252,
+      "lon": 7.809739,
+      "heading": 21,
+      "status": "OK"
+    },
+    "internalDataTimeUTC": "2017-06-07T06:32:48",
+    "singleImmediateCharging": false,
+    "chargingConnectionType": "CONDUCTIVE",
+    "chargingInductivePositioning": "NOT_POSITIONED",
+    "steering": "LH",
+    "checkControlMessages": [ ],
+    "cbsData": [
+      {
+        "cbsType": "VEHICLE_TUV",
+        "cbsState": "OK",
+        "cbsDueDate": "2019-12",
+        "cbsDescription": "Next statutory vehicle inspection due by the stated date."
+      },
+      {
+        "cbsType": "OIL",
+        "cbsState": "OK",
+        "cbsRemainingMileage": 21000,
+        "cbsDueDate": "2018-10",
+        "cbsDescription": "Next service due when the stated distance has been covered or by the specified date."
+      },
+      {
+        "cbsType": "VEHICLE_CHECK",
+        "cbsState": "OK",
+        "cbsRemainingMileage": 50000,
+        "cbsDueDate": "2020-10",
+        "cbsDescription": "Next visual inspection due when the stated distance has been covered or by the stated date."
+      },
+      {
+        "cbsType": "BRAKE_FLUID",
+        "cbsState": "OK",
+        "cbsDueDate": "2019-10",
+        "cbsDescription": "Next change due at the latest by the stated date."
+      }
+    ]
+  }
+}
+
+
+{
+  "lastTrip": {
+    "efficiencyValue": 0.54,
+    "totalDistance": 25,
+    "electricDistance": 4,
+    "avgElectricConsumption": -1,
+    "avgRecuperation": 5,
+    "drivingModeValue": 1.15,
+    "totalConsumptionValue": 0.8,
+    "avgCombinedConsumption": 6.4,
+    "chargingBehaviorValue": 0,
+    "electricDistanceShareValue": 0.2,
+    "electricDistanceRatio": 16,
+    "savedFuel": 2.51,
+    "date": "2017-06-04T19:54:00+0200",
+    "duration": 26
+  }
+}
+
+{
+  "allTrips": {
+    "avgElectricConsumption": { "userAverage": 1.03 },
+    "avgRecuperation": { "userAverage": 7.49 },
+    "chargecycleRange": {
+      "userAverage": 20.84,
+      "userHigh": 0,
+      "userCurrentChargeCycle": 1
+    },
+    "totalElectricDistance": { "userTotal": 201.25 },
+    "avgCombinedConsumption": { "userAverage": 8.69 },
+    "savedCO2": 5.58,
+    "savedCO2greenEnergy": 32.823,
+    "totalSavedFuel": 29.3,
+    "resetDate": "2017-06-04T20:20:12+0200",
+    "batterySizeMax": 9140
+  }
+}
+
+{
+  "vehicleStatus": {
+    "vin": "WBY2Z21090VX90473",
+    "mileage": 20669,
+    "updateReason": "CHARGING_DONE",
+    "updateTime": "2017-06-08T10:53:44+0200",
+    "doorDriverFront": "CLOSED",
+    "doorPassengerFront": "CLOSED",
+    "windowDriverFront": "CLOSED",
+    "windowPassengerFront": "CLOSED",
+    "trunk": "CLOSED",
+    "rearWindow": "INVALID",
+    "hood": "CLOSED",
+    "doorLockState": "SECURED",
+    "parkingLight": "OFF",
+    "positionLight": "OFF",
+    "remainingFuel": 28,
+    "remainingRangeElectric": 28,
+    "remainingRangeElectricMls": 17,
+    "remainingRangeFuel": 443,
+    "remainingRangeFuelMls": 275,
+    "maxRangeElectric": 28,
+    "maxRangeElectricMls": 17,
+    "maxFuel": 42,
+    "connectionStatus": "CONNECTED",
+    "chargingStatus": "NOT_CHARGING",
+    "chargingLevelHv": 99,
+    "lastChargingEndReason": "UNKNOWN",
+    "lastChargingEndResult": "FAILED",
+    "position": {
+      "lat": 51.49935,
+      "lon": 7.4802604,
+      "heading": 191,
+      "status": "OK"
+    },
+    "internalDataTimeUTC": "2017-06-08T08:53:44",
+    "singleImmediateCharging": false,
+    "chargingConnectionType": "CONDUCTIVE",
+    "steering": "LH",
+    "checkControlMessages": [ ],
+    "cbsData": [
+      {
+        "cbsType": "VEHICLE_TUV",
+        "cbsState": "OK",
+        "cbsDueDate": "2019-05",
+        "cbsDescription": "Next statutory vehicle inspection due by the stated date."
+      },
+      {
+        "cbsType": "OIL",
+        "cbsState": "OK",
+        "cbsRemainingMileage": 30000,
+        "cbsDueDate": "2019-01",
+        "cbsDescription": "Next change due when the stated distance has been covered or by the specified date."
+      },
+      {
+        "cbsType": "VEHICLE_CHECK",
+        "cbsState": "OK",
+        "cbsRemainingMileage": 30000,
+        "cbsDueDate": "2019-01",
+        "cbsDescription": "Next visual inspection due when the stated distance has been covered or by the stated date."
+      },
+      {
+        "cbsType": "BRAKE_FLUID",
+        "cbsState": "OK",
+        "cbsDueDate": "2019-01",
+        "cbsDescription": "Next change due at the latest by the stated date."
+      }
+    ]
+  }
+}
+
+{
+  "lastTrip": {
+    "efficiencyValue": 0.73,
+    "totalDistance": 85,
+    "electricDistance": 9.4,
+    "avgElectricConsumption": 2.3,
+    "avgRecuperation": 3,
+    "drivingModeValue": 1.17,
+    "accelerationValue": 0.57,
+    "anticipationValue": 0.81,
+    "totalConsumptionValue": 0.28,
+    "auxiliaryConsumptionValue": 0.81,
+    "avgCombinedConsumption": 5.2,
+    "electricDistanceRatio": 11,
+    "savedFuel": 0,
+    "date": "2017-06-08T10:47:00+0200",
+    "duration": 63
+  }
+}
+
+{
+  "allTrips": {
+    "avgElectricConsumption": {
+      "communityLow": -3.03,
+      "communityAverage": 5.38,
+      "communityHigh": 24.14,
+      "userAverage": 4.49
+    },
+    "avgRecuperation": {
+      "communityLow": 0,
+      "communityAverage": 4.4,
+      "communityHigh": 14.7,
+      "userAverage": 4.84
+    },
+    "chargecycleRange": {
+      "communityAverage": 89.65,
+      "communityHigh": 200,
+      "userAverage": 16.69,
+      "userHigh": 35.39,
+      "userCurrentChargeCycle": 0
+    },
+    "totalElectricDistance": {
+      "communityLow": 1.03,
+      "communityAverage": 5170.29,
+      "communityHigh": 300644.44,
+      "userTotal": 533.97
+    },
+    "avgCombinedConsumption": {
+      "communityLow": 0,
+      "communityAverage": 7.25,
+      "communityHigh": 13.68,
+      "userAverage": 5.19
+    },
+    "savedCO2": 14.805,
+    "savedCO2greenEnergy": 87.09,
+    "totalSavedFuel": 0,
+    "resetDate": "2017-06-08T10:52:50+0200",
+    "batterySizeMax": 21000
+  }
+}
+
+
