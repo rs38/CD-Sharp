@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDSharp", "CDSharp\CDSharp.csproj", "{A7EC5E4C-8B13-43D5-A2A7-C788238A48FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDSharp.Test", "CDSharp.Text\CDSharp.Test.csproj", "{12B34919-DFC9-452C-9DDF-EA6E03F58FA9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDSharp.Test", "CDSharp.Test\CDSharp.Test.csproj", "{12B34919-DFC9-452C-9DDF-EA6E03F58FA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
