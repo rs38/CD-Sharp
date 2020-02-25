@@ -147,7 +147,7 @@ namespace BMW.Controllers
                                                 
             if (last == null)
             {
-                return HttpNotFound();
+                return StatusCode(404);
             }
             else if (lines>10)
             {

@@ -5,8 +5,11 @@ using Newtonsoft.Json.Linq;
 using System.Globalization;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using BMW.Core;
+using System.Collections.Generic;
+using System.Linq;
+using BMW.Viewmodels;
 
-namespace WebHistory.Tests
+namespace CDSharp.Tests
 {
     [TestClass]
     public class UnitTest
@@ -20,6 +23,27 @@ namespace WebHistory.Tests
             Assert.IsFalse(string.IsNullOrEmpty(token));
 
             BMW.Models.BMW.UpdateStatus(token,"WBY7");
+                       
+        }
+        [TestMethod]
+        public void LastTrip()
+        {
+            using (var db = new BMWContext())
+            {
+                foreach (var car in db.Vehicles)
+                {
+                    IEnumerable<Lasttrip> lastT = db.LastTrips;
+
+                    var last = from d in lastT
+                               where d.vehicle.vin.Equals(car.vin)
+                               orderby d.id descending
+                               select d.electricDistance;
+
+                    Assert.IsTrue(last.First() > 0.1);
+
+                }
+                
+            }
 
            
 

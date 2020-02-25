@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BMW.Models
 {
@@ -38,6 +39,7 @@ namespace BMW.Models
         public int chargingLevelHv { get; set; }
         public string lastChargingEndReason { get; set; }
         public string lastChargingEndResult { get; set; }
+        [NotMapped]
         public Position position { get; set; }
         public DateTime internalDataTimeUTC { get; set; }
         public bool singleImmediateCharging { get; set; }

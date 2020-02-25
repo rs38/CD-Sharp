@@ -4,7 +4,7 @@ namespace BMW.Models
 {
     public class Vehicle
     {
-        [Key]
+        
         public string vin { get; set; }
         public string model { get; set; }
         public string bodytype { get; set; }

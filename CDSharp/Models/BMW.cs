@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
+using System.ComponentModel.DataAnnotations.Schema;
+
 
 
 namespace BMW.Models
@@ -31,6 +30,7 @@ namespace BMW.Models
     {
         public int id { get; set; }
         public DateTime requestTime { get; set; }
+        
         public virtual Vehicle vehicle { get; set; }
         public float efficiencyValue { get; set; }
         public int totalDistance { get; set; }
@@ -55,10 +55,15 @@ namespace BMW.Models
         public int id { get; set; }
         public DateTime requestTime { get; set; }
         public virtual Vehicle vehicle { get; set; }
+        [NotMapped]
         public Avgelectricconsumption avgElectricConsumption { get; set; }
+        [NotMapped]
         public Avgrecuperation avgRecuperation { get; set; }
+        [NotMapped]
         public Chargecyclerange chargecycleRange { get; set; }
+        [NotMapped]
         public virtual Totalelectricdistance totalElectricDistance { get; set; }
+        [NotMapped]
         public Avgcombinedconsumption avgCombinedConsumption { get; set; }
         public float savedCO2 { get; set; }
         public float savedCO2greenEnergy { get; set; }
